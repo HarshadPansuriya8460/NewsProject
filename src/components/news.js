@@ -6,6 +6,8 @@ import {
 	heading
   } from './news.module.css'
 
+  // news.module.css use for style the page and for responsiveness
+
 const News = () =>
 	(<>
 			<StaticQuery query={graphql`
